@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.the-article {
+  background-image: url(/assets/images/hero.jpg);
+}
+/* Header */
+
+.top-header {
+  display: grid;
+  background-color: #0a0a3f;
+  padding: 10px;
+}
+
+.top-header img {
+  margin-left: 30px;
+}
+
+/* Main */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, auto));
+  grid-gap: 10px;
+  margin: 20px 200px 20px 200px;
+}
+
+section {
+  border: solid 2px black;
+  position: relative;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.card-grid section .logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+
+  border: solid 1px black;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.icons-svg {
+  text-align: right;
+  margin: 10px 10px 10px 10px;
+}
+
+.card-grid section p {
+  margin: 10px 10px 20px 10px;
+  font-family: sans-serif;
+  color: white;
+}
+
+button {
+}
+
+/* Footer */
+
+.footer {
+  display: grid;
+  background-color: #0a0a3f;
+  padding: 10px;
+}
+
+.footer img {
+  margin-left: 30px;
+}

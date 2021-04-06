@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-header {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-color: #0a0a3f;
+  padding: 10px;
+}
+
+.top-header img {
+  margin-left: 30px;
+}
+
+section {
+  float: left;
+  margin: 50px;
+  padding: 20px;
+}
+
+section p {
+  font-family: sans-serif;
+  float: left;
+  margin-top: 20px;
+}
